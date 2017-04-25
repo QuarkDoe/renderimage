@@ -1,0 +1,17 @@
+hard_tabs = true
+max_width = 200
+# where_layout = "Horizontal"
+# where_indent = "Inherit"
+# where_layout = "Horizontal"
+# where_pred_indent = "Inherit"
+
+where_density = "Compressed"
+# [Compressed|Tall|CompressedIfEmpty|Vertical] Default: CompressedIfEmpty | Density of a where clause
+where_indent = "Tabbed"
+# [Inherit|Tabbed|Visual] Default: Tabbed | Indentation of a where clause
+where_layout = "Horizontal"
+# [Vertical|Horizontal|HorizontalVertical|Mixed] Default: Vertical | Element layout inside a where clause
+where_pred_indent = "Tabbed"
+# [Inherit|Tabbed|Visual] Default: Visual | Indentation style of a where predicate
+# where_trailing_comma = false
+# <boolean> Default: false | Put a trailing comma on where clauses

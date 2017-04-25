@@ -1,0 +1,18 @@
+[package]
+name = "gendata"
+version = "0.1.0"
+authors = ["Pavel Babyak <vanger.paul@gmail.com>"]
+build = "build.rs"
+
+[lib]
+crate-type = ["rlib", "staticlib", "dylib"]
+
+[build-dependencies]
+rusty-cheddar = { version = "*", git = "https://gitlab.com/rusty-binder/rusty-cheddar.git" }
+
+[dependencies]
+libc = { version = "*", default-features = false }
+noise = { git = "https://github.com/brendanzab/noise-rs.git" }
+rand = "*"
+num = "*"
+

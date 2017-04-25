@@ -1,2 +1,2 @@
 # renderimage
-Qt+Rust example
+CMake+Qt+Rust example

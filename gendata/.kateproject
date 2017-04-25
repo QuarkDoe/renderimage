@@ -1,0 +1,23 @@
+{
+	"name" : "gendata",
+	"files": [
+		{
+			"directory": "src",
+			"filters": ["*.rs"],
+			"recursive": 1
+		},
+		{
+			"directory" : ".",
+			"filters" : [ "*.toml" ]
+		},
+		{
+			"directory" : ".",
+			"filters" : [ ".kateproject" ]
+		}
+	],
+	"build": {
+		"directory": ".",
+		"build": "cargo build",
+		"clean": "cargo clean"
+	}
+}

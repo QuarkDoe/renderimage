@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="renderimage">
+    <file>play_icon.16.png</file>
+    <file>copy_circle-16.png</file>
+    <file>plus_circle-16.png</file>
+    <file>render_icon.16.png</file>
+    <file>close.png</file>
+  </qresource>
+</RCC>
